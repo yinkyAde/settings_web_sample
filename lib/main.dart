@@ -398,7 +398,7 @@ class _ProfileCardBlue extends StatelessWidget {
                     value: 1,
                     strokeWidth: 10,
                     valueColor: AlwaysStoppedAnimation<Color>(Colors.transparent),
-                    backgroundColor: Color(0x33FFFFFF), // subtle track
+                    backgroundColor: Color(0x33FFFFFF),
                   ),
                   CircularProgressIndicator(
                     value: progress,
@@ -568,7 +568,6 @@ class _AccountSettingsPanelState extends State<_AccountSettingsPanel> {
                   ),
                   const SizedBox(height: 8),
 
-                  // CHECKBOX GRID to mirror the mock
                   Wrap(
                     spacing: 24,
                     runSpacing: 4,
